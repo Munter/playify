@@ -1,0 +1,40 @@
+{
+  "name": "playify",
+  "version": "0.0.0",
+  "description": "Play movies from yify directly from the command line using torrentstream",
+  "main": "lib/index",
+  "scripts": {
+    "test": "jshint . bin/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Munter/playify.git"
+  },
+  "keywords": [
+    "cli",
+    "torrent",
+    "stream",
+    "movie",
+    "yify"
+  ],
+  "author": "Peter Müller <munter@fumle.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Munter/playify/issues"
+  },
+  "homepage": "https://github.com/Munter/playify",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": "bin/playify",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "inquirer": "^0.8.0",
+    "peerflix": "^0.20.4",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10"
+  }
+}

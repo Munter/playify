@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var yifyQuery = require('../lib');
+var spawn = require('child_process').spawn;
+var query = [], options = [];
+process.argv.slice(2).forEach(function (arg) {
+  (arg.indexOf('-') === 0 ? options : query).push(arg);
+});
+
+if (options.indexOf('-h') !== -1) {
+  return spawn('peerflix', options, { stdio: 'inherit' });
+}
+
+yifyQuery(query.join(' '), function (err, result) {
+  if (err) { throw err; }
+
+  spawn('peerflix', [result.TorrentMagnetUrl].concat(options), { stdio: 'inherit' });
+});
