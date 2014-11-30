@@ -7,7 +7,7 @@ process.argv.slice(2).forEach(function (arg) {
   (arg.indexOf('-') === 0 ? options : query).push(arg);
 });
 
-if (options.indexOf('-h') !== -1) {
+if (options.indexOf('-h') !== -1 || options.indexOf('--help') !== -1) {
   return spawn('peerflix', options, { stdio: 'inherit' });
 }
 
