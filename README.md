@@ -1,8 +1,8 @@
 Playify
 =======
-[![NPM version](https://badge.fury.io/js/playify.png)](http://badge.fury.io/js/playify)
-[![Build Status](https://travis-ci.org/Munter/playify.png?branch=master)](https://travis-ci.org/Munter/playify)
-[![Dependency Status](https://david-dm.org/Munter/playify.png)](https://david-dm.org/Munter/playify)
+[![NPM version](https://badge.fury.io/js/playify.svg)](http://badge.fury.io/js/playify)
+[![Build Status](https://travis-ci.org/Munter/playify.svg?branch=master)](https://travis-ci.org/Munter/playify)
+[![Dependency Status](https://david-dm.org/Munter/playify.svg)](https://david-dm.org/Munter/playify)
 
 Play movies from yify torrents directly from the command line using [peerflix](https://github.com/mafintosh/peerflix).
 
