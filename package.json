@@ -29,7 +29,7 @@
   "dependencies": {
     "chalk": "^0.5.1",
     "inquirer": "^0.8.0",
-    "peerflix": "^0.22.1",
+    "peerflix": "^0.25.2",
     "request": "^2.47.0",
     "yify-query": "^1.0.0"
   },
