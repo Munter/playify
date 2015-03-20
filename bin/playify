@@ -14,5 +14,5 @@ if (options.indexOf('-h') !== -1 || options.indexOf('--help') !== -1) {
 yifyQuery(query.join(' '), function (err, result) {
   if (err) { throw err; }
 
-  spawn('peerflix', [result.TorrentMagnetUrl].concat(options), { stdio: 'inherit' });
+  spawn('peerflix', [result.magnet].concat(options), { stdio: 'inherit' });
 });
