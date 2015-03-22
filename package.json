@@ -28,7 +28,7 @@
   "bin": "bin/playify",
   "dependencies": {
     "peerflix": "^0.29.1",
-    "yify-query": "^2.0.1"
+    "yify-query": "^2.0.2"
   },
   "devDependencies": {
     "jshint": "^2.5.10"
