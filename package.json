@@ -1,6 +1,6 @@
 {
   "name": "playify",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Play movies from yify directly from the command line using torrentstream",
   "scripts": {
     "test": "jshint . bin/*"
