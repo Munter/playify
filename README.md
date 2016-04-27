@@ -15,7 +15,7 @@ npm install -g playify
 playify [my favorite movie title] [peerflix options]
 ```
 
-Any word prefixed with `-` will be sent as a comman line option to [peerflix](https://github.com/mafintosh/peerflix). Use `playify -h` to get a list of options.
+Any word prefixed with `-` will be sent as a command-line option to [peerflix](https://github.com/mafintosh/peerflix). Use `playify -h` to get a list of options.
 
 
 License
